@@ -11,7 +11,7 @@
 		your <span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">+page.js</span> file:
 	</div>
 	<div class="bg-zinc-800 rounded-md mb-4 h-auto font-mono p-4">
-		<div><span class="text-blue-500">export const</span> config = &#123;</div>
+		<div><span class="text-blue-400">export const</span> config = &#123;</div>
 		<div class="ml-8">runtime: <span class="text-orange-500">'edge'</span></div>
 		<div>&#125;;</div>
 	</div>
@@ -22,18 +22,17 @@
 		Function.
 	</div>
 	<div class="bg-zinc-800 rounded-md mb-4 h-auto font-mono p-4">
-		<div><span class="text-blue-500">export const</span> config = &#123;</div>
+		<div><span class="text-blue-400">export const</span> config = &#123;</div>
 		<div class="ml-8">isr: &#123;</div>
 		<div class="ml-16">expiration: <span class="text-emerald-400">10</span></div>
 		<div class="ml-8">&#125;;</div>
 		<div>&#125;;</div>
 	</div>
-
 	<div class="opacity-80">
-		Learn more about using ISR with SvelteKit on Vercel <a
-			class="text-blue-400 hover:text-blue-500"
+		Learn more about <a
+			class="text-blue-400 hover:text-blue-400"
 			href="https://kit.svelte.dev/docs/adapter-vercel#incremental-static-regeneration"
-			target="_blank">here</a
+			target="_blank">using ISR with SvelteKit on Vercel</a
 		>.
 	</div>
 </div>

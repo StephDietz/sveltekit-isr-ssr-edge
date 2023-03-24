@@ -12,7 +12,7 @@
 		Runtime which is more performant and cost-effective than Serverless Functions. Edge Functions
 		are deployed globally on an Edge Network, and can automatically execute in the region nearest to
 		the user. Learn more about edge functions <a
-			class="text-blue-400 hover:text-blue-500"
+			class="text-blue-400 hover:text-blue-400"
 			href="https://vercel.com/docs/concepts/functions/edge-functions"
 			target="_blank">here</a
 		>.

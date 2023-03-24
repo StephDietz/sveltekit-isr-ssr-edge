@@ -1,7 +1,7 @@
 <div
 	class="max-w-4xl mx-auto w-full flex md:flex-row flex-col items-center md:justify-between py-8 mb-12 border-b border-white/20"
 >
-	<a href="/" class="flex items-center mb-4 md:mb-0 text-white">
+	<a href="/" class="flex items-center mb-4 md:mb-0 text-white" aria-label="Home">
 		<svg height="30" viewBox="0 0 113 100" width="30" xmlns="http://www.w3.org/2000/svg"
 			><defs
 				><linearGradient id="a" x1="196.57%" x2="100%" y1="228.82%" y2="100%"
