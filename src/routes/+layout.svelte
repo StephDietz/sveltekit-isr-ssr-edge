@@ -5,7 +5,7 @@
 	import Footer from '../lib/Footer.svelte';
 </script>
 
-<div class="px-8 md:px-0 h-screen flex flex-col justify-between">
+<div class="px-8 lg:px-0 h-screen flex flex-col justify-between">
 	<Header />
 	<div class="flex-grow w-full max-w-4xl mx-auto flex flex-col md:flex-row">
 		<Nav />
