@@ -8,7 +8,7 @@
 	<div class="opacity-80 mb-4">
 		This page is returning the date from a SvelteKit page endpoint with edge configuration
 		specified. This means that when deployed to Vercel, this endpoint will be turned into and edge
-		function which enable you to deliver dynamic, personalized content with the lightweight Edge
+		function which enables you to deliver dynamic, personalized content with the lightweight Edge
 		Runtime which is more performant and cost-effective than Serverless Functions. Edge Functions
 		are deployed globally on an Edge Network, and can automatically execute in the region nearest to
 		the user. Learn more about edge functions <a
