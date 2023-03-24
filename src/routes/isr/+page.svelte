@@ -13,7 +13,7 @@
 		developers: better performance, improved security, and faster build times. Learn more about ISR <a
 			href="https://vercel.com/docs/concepts/incremental-static-regeneration/overview#"
 			target="_blank"
-			class="text-blue-400 hover:text-blue-500">here</a
+			class="text-blue-400 hover:text-blue-400">here</a
 		>.
 	</div>
 	<div class="opacity-80 mb-4">
