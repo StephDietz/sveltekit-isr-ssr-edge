@@ -1,8 +1,8 @@
 <script>
 	import '../app.css';
-	import Nav from '../lib/Nav.svelte';
-	import Header from '../lib/Header.svelte';
-	import Footer from '../lib/Footer.svelte';
+	import Nav from '$lib/Nav.svelte';
+	import Header from '$lib/Header.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
 
 <div class="px-8 lg:px-0 h-screen flex flex-col justify-between">
