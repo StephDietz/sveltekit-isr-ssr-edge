@@ -19,7 +19,7 @@
 	<div class="opacity-80 mb-4">
 		This page endpoint runs on the server, and returns the current date and time. Since it is
 		configure to be ISR and it's expiration is set to ten seconds, you'll notice the date does not
-		change until at least ten seconds has passed.
+		change until at least ten seconds has passed since the last page visit.
 	</div>
 	<div class="bg-zinc-900/60 rounded-md p-6 shadow-md  shadow-zinc-700/30">
 		<div class="mb-2 text-sm uppercase text-white/60">Current Date:</div>
