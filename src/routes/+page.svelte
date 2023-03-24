@@ -30,7 +30,12 @@
 		NOTE: In order to do this you must be using the <a
 			class="text-blue-400 hover:text-blue-500"
 			href="https://github.com/sveltejs/kit/tree/master/packages/adapter-vercel"
-			target="_blank">`adapter-vercel`</a
+			target="_blank"
+			><span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">adapter-vercel</span></a
 		>
+		ens you must configure
+		<span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">split: true</span>
+		at the adapter level in
+		<span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">svelte.config.js</span>.
 	</div>
 </div>
