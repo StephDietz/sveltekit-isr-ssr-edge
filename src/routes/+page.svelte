@@ -1,8 +1,36 @@
-<script>
-	/** @type {import('./$types').PageData} */
-	export let data;
-</script>
-
-<div>
-	SSR: {data.generatedAt}
+<div class="">
+	<div class="font-bold text-2xl mb-4">SvelteKit Deployment Configuration</div>
+	<div class="opacity-80 mb-4">
+		SvelteKit apps can now control their deployment configuration on a per-route basis. This means
+		we can render some routes with Edge Functions, some with Serverless Functions, and others with
+		Incremental Static Regeneration. If no configuration is specified, it will use the project
+		defaults.
+	</div>
+	<div class="opacity-80 mb-4">
+		To specify the deployment configuration of this endpoint to be edge, add the following code to
+		your <span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">+page.js</span> file:
+	</div>
+	<div class="bg-zinc-800 rounded-md mb-4 h-auto font-mono p-6">
+		<div><span class="text-blue-500">export const</span> config = &#123;</div>
+		<div class="ml-8">runtime: <span class="text-orange-500">'edge'</span></div>
+		<div>&#125;;</div>
+	</div>
+	<div class="opacity-80 mb-4">
+		To specify the deployment configuration of this endpoint to be ISR, add the following code to
+		your <span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">+page.js</span> file:
+	</div>
+	<div class="bg-zinc-800 rounded-md mb-4 h-auto font-mono p-6">
+		<div><span class="text-blue-500">export const</span> config = &#123;</div>
+		<div class="ml-8">isr: &#123;</div>
+		<div class="ml-16">expiration: <span class="text-emerald-400">10</span></div>
+		<div class="ml-8">&#125;;</div>
+		<div>&#125;;</div>
+	</div>
+	<div class="opacity-80 mb-4">
+		NOTE: In order to do this you must be using the <a
+			class="text-blue-400 hover:text-blue-500"
+			href="https://github.com/sveltejs/kit/tree/master/packages/adapter-vercel"
+			target="_blank">`adapter-vercel`</a
+		>
+	</div>
 </div>
