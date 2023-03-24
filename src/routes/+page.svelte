@@ -38,4 +38,11 @@
 		at the adapter level in
 		<span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">svelte.config.js</span>.
 	</div>
+	<div class="opacity-80">
+		Learn more about using ISR with SvelteKit on Vercel <a
+			class="text-blue-400 hover:text-blue-500"
+			href="https://kit.svelte.dev/docs/adapter-vercel#incremental-static-regeneration"
+			target="_blank">here</a
+		>.
+	</div>
 </div>
