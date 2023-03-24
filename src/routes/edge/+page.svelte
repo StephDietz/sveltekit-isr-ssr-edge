@@ -19,8 +19,7 @@
 	</div>
 	<div class="opacity-80 mb-4">
 		This page endpoint runs on the edge, and returns the current date and time. Notice each time you
-		refresh the page, the endpoint runs again and the time is updated, however you may notice it
-		returns the date quicker than our serverless function.
+		refresh the page, the endpoint runs again and the time is updated.
 	</div>
 	<div class="bg-zinc-900/60 rounded-md p-6 shadow-md mb-4 shadow-zinc-700/30">
 		<div class="mb-2 text-sm uppercase text-white/60">Current Date:</div>
