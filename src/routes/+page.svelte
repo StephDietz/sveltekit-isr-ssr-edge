@@ -28,26 +28,6 @@
 		<div class="ml-8">&#125;;</div>
 		<div>&#125;;</div>
 	</div>
-	<div class="opacity-80 mb-4">
-		NOTE: In order to do this you must be using the <a
-			class="text-blue-400 hover:text-blue-500"
-			href="https://github.com/sveltejs/kit/tree/master/packages/adapter-vercel"
-			target="_blank"
-			><span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">adapter-vercel</span></a
-		>
-		and you must configure
-		<span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">split: true</span>
-		at the adapter level in
-		<span class="p-1 bg-zinc-800 rounded-md font-mono text-xs">svelte.config.js</span>.
-	</div>
-	<!-- adapter: adapter({
-    split: true
-  }) -->
-	<div class="bg-zinc-800 rounded-md mb-4 h-auto font-mono p-4">
-		<div>adapter: adapter(&#123;</div>
-		<div class="ml-8">split: <span class="text-blue-500">true</span></div>
-		<div>&#125;);</div>
-	</div>
 	<div class="opacity-80">
 		Learn more about using ISR with SvelteKit on Vercel <a
 			class="text-blue-400 hover:text-blue-500"
